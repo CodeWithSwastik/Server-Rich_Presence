@@ -9,11 +9,11 @@ Rich presence is quite common on Discord and you might have seen it in action on
 - Fork this repository
 - Install Node.js on your machine (it must be Node.js v12 or higher)
 - Install the `discord-rpc` NPM package
-- To start the process, run `node index.js` on your command line
 - Make a new application [here](https://discord.com/developers/applications), call it whatever you want.
-- Added your assests 
-- Replace client_id with your client id and large_image with the name of your large image assest
-- Run the file!
+- Add your assests 
+- Replace client_id with your client id https://media.discordapp.net/attachments/743817386792058971/803998148635918386/unknown.png?width=1440&height=528
+- Change the other constants with whatever you like :)
+- To start the process, run `node index.js` on your command line
 
 ## Troubleshooting:
 In some cases, there are issues with running the rich presence script or it not showing up at all.  Be sure that you are running it on the same machine as your account (i.e. you run it on your laptop since that's where your account is logged in on).  Also, be sure that you have the correct packages installed as mentioned earlier and that you are running Node.js v12 or higher.
