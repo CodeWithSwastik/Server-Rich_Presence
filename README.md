@@ -1,6 +1,6 @@
 # Server Rich Presence
-![](https://media.discordapp.net/attachments/535310988832931870/803093609397223424/5URUZEmCxcAAAAASUVORK5CYII.png)\
-Rich presence for promoting JavaScript Universe.
+![](https://cdn.discordapp.com/attachments/802528789795831838/803996095998984232/unknown.png)\
+Rich presence for your discord Sever.
 ## What's Rich Presence?
 > Rich Presence is a new feature from Discord that allows you to surface unique, interesting, and actionable data inside a Discord user’s profile when they play your game! - **Discord Rich Presence Documentation**
 
@@ -10,6 +10,10 @@ Rich presence is quite common on Discord and you might have seen it in action on
 - Install Node.js on your machine (it must be Node.js v12 or higher)
 - Install the `discord-rpc` NPM package
 - To start the process, run `node index.js` on your command line
+- Make a new application [here](https://discord.com/developers/applications), call it whatever you want.
+- Added your assests 
+- Replace client_id with your client id and large_image with the name of your large image assest
+- Run the file!
 
 ## Troubleshooting:
 In some cases, there are issues with running the rich presence script or it not showing up at all.  Be sure that you are running it on the same machine as your account (i.e. you run it on your laptop since that's where your account is logged in on).  Also, be sure that you have the correct packages installed as mentioned earlier and that you are running Node.js v12 or higher.
@@ -18,4 +22,4 @@ In some cases, there are issues with running the rich presence script or it not 
 At the time of writing, having your own custom Rich Presence is not against the Discord Terms of Service as you are not automating your account or modifying any part of your client.  Overall, you should be safe running this script.
 
 ## Miscellaneous:
-If you have any further questions about this or our other projects, you can visit our [support server](https://discord.gg/KBfTgpx) to ask us any questions or give us your feedback about this script.  Feel free to make a pull request for any changes and I'll merge them if they are significant.  Have a good day!
+If you have any further questions about this or our other projects, you can visit my [support server](https://discord.gg/TXF3hBj) to ask us any questions or give us your feedback about this script.  Feel free to make a pull request for any changes and I'll merge them if they are significant.  Have a good day!
